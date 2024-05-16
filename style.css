@@ -1,0 +1,30 @@
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-container{
+    width: 50%;
+    box-shadow: 4px 4px 8px gray;
+    text-align: center;
+}
+
+.player-container{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: center;
+}
+.navbar .d-flex {
+    width: 50%;
+}

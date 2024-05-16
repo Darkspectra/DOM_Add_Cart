@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="modal-container">
+
+    </div>
+
+    <div class="search-container">
+        <div>
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <form class="d-flex mx-auto" role="search" onsubmit="return searchPlayers(event)">
+                        <input id="search-box" class="form-control me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div id="show-players" class="show-players">
+
+        </div>
+    </div>
+
+
+    <div class="main-container">
+        <div id="player-container" class="player-container">
+
+        </div>
+        <div class="cart-container">
+            <h1>This is Cart <br> Count: <span id="count">0</span></h1>
+            <hr>
+            <h3>-----Name-----</h3>
+            <div id="cart-main-container" class="cart-main-container">
+
+            </div>
+            <hr>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
